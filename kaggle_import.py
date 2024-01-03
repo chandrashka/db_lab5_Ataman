@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 db_params = {
     'dbname': 'spotify',
-    'user': 'Ataman',
+    'user': 'ataman',
     'password': 'postgres',
     'host': 'localhost',
     'port': '5432'

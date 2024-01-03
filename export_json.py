@@ -4,7 +4,7 @@ import psycopg2
 # Підключення до бази даних PostgreSQL
 conn = psycopg2.connect(
     dbname='spotify', 
-    user='Ataman',  
+    user='ataman',  
     password='postgres',
     host='localhost',
 )
