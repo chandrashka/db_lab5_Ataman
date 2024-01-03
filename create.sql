@@ -1,5 +1,10 @@
 -- create.sql
 
+CREATE TABLE Artist (
+    artist_id SERIAL PRIMARY KEY,
+    artist_name VARCHAR(255)
+);
+
 CREATE TABLE Track (
     track_id SERIAL PRIMARY KEY,
     track_name VARCHAR(255),
@@ -18,11 +23,6 @@ CREATE TABLE Track (
     instrumentalness_percent FLOAT,
     liveness_percent FLOAT,
     speechiness_percent FLOAT
-);
-
-CREATE TABLE Artist (
-    artist_id SERIAL PRIMARY KEY,
-    artist_name VARCHAR(255)
 );
 
 CREATE TABLE Playlist (
